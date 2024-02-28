@@ -21,4 +21,4 @@
 
 https://github.com/david-minaya/skimli
 
-You can inspect the code of this project, most of the code is mine. I don't give you the instructions to run this project because to can run this project it's need to connect with a remote backend, and I don't have access to that backend anymore.
+You can inspect the code of this project, most of the code is mine. I am not giving you the instructions to run this project because in order to run it you need to connect to a remote backend and I no longer have access to that backend.
