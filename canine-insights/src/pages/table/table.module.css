@@ -1,0 +1,90 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  width: 100%;
+  flex-grow: 1;
+  overflow-y: scroll;
+  background-color: rgb(228, 228, 228);
+  padding: 24px 40px;
+  margin: auto;
+}
+
+.tableContainer {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.title {
+  color: var(--primary-color);
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 12px;
+}
+
+.search, .sort {
+  width: 260px;
+  height: 32px;
+  font-size: 15px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0px 1px 1px gray;
+  outline: none;
+  border: none;
+  padding: 0px 8px;
+}
+
+.button {
+  margin-left: auto;
+}
+
+.sort {
+  width: 120px;
+}
+
+.select {
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.table {
+  width: 100%;
+  background-color: white;
+  border-collapse: collapse;
+  margin-top: 32px;
+}
+
+.tableHeader {
+  background-color: var(--primary-color);
+}
+
+.tableHeader th {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px;
+}
+
+.tableHeader th:first-of-type {
+  width: 300px;
+}
+
+.tableHeader th:last-of-type {
+  width: 60px;
+}

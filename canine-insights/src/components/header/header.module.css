@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  background-color: var(--primary-color);
+  padding: 12px 24px;
+}
+
+.title {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+.navLink {
+  text-decoration: none;
+}
+
+.tableLink {
+  font-size: 15px;
+  color: white;
+}

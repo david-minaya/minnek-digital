@@ -1,0 +1,46 @@
+.item {
+  width: 180px;
+  display: block;
+  position: relative;
+  text-align: center;
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  border: 4px solid var(--primary-color);
+}
+
+.image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.title {
+  display: inline-block;
+  color: white;
+  font-size: 16px;
+  padding: 4px 0px;
+}
+
+.subBreeds {
+  height: 180px;
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px 12px;
+}
+
+.item:hover > .subBreeds {
+  display: block;
+}
+
+.subBreed {
+  display: block;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 12px;
+}

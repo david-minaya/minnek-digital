@@ -1,0 +1,29 @@
+body {
+  margin: 0px;
+  font-family: 'Noto Sans', sans-serif;
+  --primary-color: #00003C;
+  --primary-color-darker: #00002c;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0px;
+  font-weight: 500;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(212, 212, 212);
+  margin: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+}
