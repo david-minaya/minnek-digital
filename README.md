@@ -17,6 +17,8 @@
 3. Run the server `npm run dev`.
 4. Go to the browser and open the page `http://localhost:5000`.
 
+> The game logic is in the App component `/src/app/app.component.tsx`
+
 ## A project I worked on
 
 https://github.com/david-minaya/skimli
